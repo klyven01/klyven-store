@@ -117,7 +117,7 @@ export default function Home() {
       {/* BRAND STORY */}
       <section className="border-y border-line">
         <div className="max-w-7xl mx-auto px-5 md:px-8 py-20 md:py-28 grid md:grid-cols-2 gap-10 md:gap-16 items-center">
-        <PlaceholderImage src="/images/BRAND STORY VISUAL" alt="KLYVEN story" aspect="aspect-[4/5]" />
+        <PlaceholderImage src="public/images/BRAND STORY VISUAL" alt="KLYVEN story" aspect="aspect-[4/5]" />
           <div>
             <p className="spec-tag text-signal mb-4">The Story</p>
             <h2 className="font-display text-3xl md:text-4xl text-bone mb-6">
