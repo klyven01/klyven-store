@@ -60,7 +60,8 @@ export default function Home() {
         {/* Hero image/video placeholder — replace with a real editorial shot or video loop */}
         <div className="relative border-t border-line">
           <PlaceholderImage
-            public/images/hero.png
+            src="/images/hero.png"
+           alt="KLYVEN hero"
             aspect="aspect-[16/7]"
           />
         </div>
