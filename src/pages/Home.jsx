@@ -60,7 +60,7 @@ export default function Home() {
         {/* Hero image/video placeholder — replace with a real editorial shot or video loop */}
         <div className="relative border-t border-line">
           <PlaceholderImage
-            label="HERO VISUAL // REPLACE WITH IMAGE OR VIDEO"
+            public/images/hero.png
             aspect="aspect-[16/7]"
           />
         </div>
