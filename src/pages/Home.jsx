@@ -138,7 +138,7 @@ export default function Home() {
 
       {/* EDITORIAL BANNER */}
       <section className="relative">
-        <PlaceholderImage src="/images/BRAND STORY VISUAL" alt="KLYVEN story" aspect="aspect-[21/9]" />
+        <PlaceholderImage src="/images/Editorial banner.png" alt="KLYVEN story" aspect="aspect-[21/9]" />
         <div className="absolute inset-0 flex items-end p-6 md:p-14">
           <h2 className="font-display text-3xl md:text-6xl text-bone max-w-3xl leading-[0.95]">
             Not everyone moves the same.
