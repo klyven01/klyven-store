@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace klyven.netlify.app with your real domain once connected. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://klyven.netlify.app/</loc></url>
+  <url><loc>https://klyven.netlify.app/shop</loc></url>
+  <url><loc>https://klyven.netlify.app/about</loc></url>
+  <url><loc>https://klyven.netlify.app/contact</loc></url>
+  <url><loc>https://klyven.netlify.app/track-order</loc></url>
+  <url><loc>https://klyven.netlify.app/shipping-policy</loc></url>
+  <url><loc>https://klyven.netlify.app/returns-policy</loc></url>
+  <url><loc>https://klyven.netlify.app/privacy-policy</loc></url>
+  <url><loc>https://klyven.netlify.app/terms</loc></url>
+  <url><loc>https://klyven.netlify.app/product/drop-01-design-01</loc></url>
+  <url><loc>https://klyven.netlify.app/product/drop-01-design-02</loc></url>
+  <url><loc>https://klyven.netlify.app/product/drop-01-design-03</loc></url>
+  <url><loc>https://klyven.netlify.app/product/drop-01-design-04</loc></url>
+  <url><loc>https://klyven.netlify.app/product/drop-01-design-05</loc></url>
+</urlset>

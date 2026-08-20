@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #3B5BFF;
+  color: #F3F2ED;
+}
+
+:focus-visible {
+  outline: 2px solid #3B5BFF;
+  outline-offset: 3px;
+}
+
+/* Signature texture: a faint diagonal scan/grid used sparingly behind
+   hero + section dividers, evoking a HUD / spec-sheet reading of the
+   garments rather than decorative streetwear graffiti. */
+.klyven-grid {
+  background-image:
+    linear-gradient(to right, rgba(243,242,237,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(243,242,237,0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.klyven-scan {
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(243,242,237,0.035) 0px,
+    rgba(243,242,237,0.035) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+/* Placeholder image block — generated gradient standing in for real
+   product photography until the founder uploads real assets. */
+.klyven-placeholder {
+  background:
+    repeating-linear-gradient(135deg, rgba(243,242,237,0.06) 0px, rgba(243,242,237,0.06) 1px, transparent 1px, transparent 14px),
+    linear-gradient(160deg, #1a1a1a 0%, #0a0a0a 60%);
+}
+
+.spec-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+}
+
+/* Subtle "3D" depth system — used on product cards and key CTAs for a
+   premium, tactile feel without any extra JS library. */
+.card-3d {
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.card-3d:hover {
+  transform: translateY(-6px) rotateX(2deg) rotateY(-2deg) scale(1.015);
+  box-shadow: 0 24px 48px -12px rgba(0,0,0,0.55), 0 0 0 1px rgba(243,242,237,0.06);
+}
+
+.btn-depth {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 1px 0 rgba(243,242,237,0.15) inset, 0 8px 20px -8px rgba(0,0,0,0.6);
+}
+.btn-depth:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 1px 0 rgba(243,242,237,0.15) inset, 0 14px 28px -10px rgba(59,91,255,0.45);
+}
+.btn-depth:active {
+  transform: translateY(0);
+}
+
+.input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #2A2A2A;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: #F3F2ED;
+  outline: none;
+}
+.input:focus {
+  border-color: #3B5BFF;
+}
+.input::placeholder {
+  color: #8A8D91;
+}
